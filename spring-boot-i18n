@@ -1,0 +1,35 @@
+I'm writing a custom Spring Boot starter that other developers will drop into their applications, and this starter contains out-of-the-box controllers and UI screens.
+
+These UI screens are internationalized and the i18n keys/values are in a package file: com/foo/wherever/i18n.properties.
+
+I want to ensure that when my starter is loaded at startup, that these i18n.properties are available in the application's MessageSource automatically so that my UI pages work (rendered via normal Spring Controller + ViewResolver + View implementations) without the app developer having to specify this file themselves.
+
+In other words, they should be able to add my starter to their runtime classpath and everything 'just works' without the need to configure anything.
+
+Now, I have discovered that the app developer can create their own src/main/resources/messages.properties file and manually configure the additional messages file in application.properties:
+
+spring.messages.basename = messages, com.foo.wherever.i18n
+And this will work.
+
+However, this requires both of the following:
+
+They must manually configure the spring.messages.basename property - it's not automatic. and
+They must have their own messages.properties file in their application classpath. If a messages.properties file does not exist, spring.messages.basename doesn't even work. Even if they don't care about i18n, this is still required - not desirable.
+I suppose I could move my i18n.properties file to a classpath:/messages.properties file in the starter .jar, but that doesn't seem like a good solution: if the app dev has their own messages.properties file only one of them would be read, resulting in missing message values.
+
+It seems as if Spring Boot MessageSourceAutoConfiguration should have a concept of a CompositeMessageSource that iterates over one or more MessageSource instances that are available (and Ordered) in the Spring ApplicationContext and that is used by the DispatcherServlet. This would allow any starter to contribute to the available messages just by declaring a MessageSource in their auto config
+
+Is it possible to do what I ask? What is the most 'hands off' solution for the app developer?
+
+by http://stackoverflow.com/questions/28750292/custom-spring-boot-starter-how-do-you-contribute-i18n-messages-to-the-messageso
+
+################################################################################
+application.properties配置
+# INTERNATIONALIZATION (MessageSourceAutoConfiguration)
+spring.messages.basename=messages,cn.ncss.common.utils.pubcode
+spring.messages.cacheSeconds=-1
+spring.messages.encoding=UTF-8
+
+src/main/resources下面有messages.properties
+cn.ncss.common.utils.pubcode下面有pubcode_zh_CN.properties
+就可以实现i18n了，程序通过注入messageSource，而thymeleaf通过#{...}取i18n，表达式允许嵌套
