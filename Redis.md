@@ -39,3 +39,5 @@ http://blog.jobbole.com/1344/
 # 其他redis介绍
 
 http://blog.sina.com.cn/s/blog_5a15b7d10101gizu.html
+
+http://gudaoqing.blog.51cto.com/7729345/1601114
