@@ -42,4 +42,4 @@ http://blog.jobbole.com/1344/
 
 http://blog.sina.com.cn/s/blog_5a15b7d10101gizu.html
 
-http://gudaoqing.blog.51cto.com/7729345/1601114
+https://github.com/HunanTV/redis-cerberus/wiki/Redis-%E9%9B%86%E7%BE%A4%E4%BB%A3%E7%90%86%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86%E4%B8%8E%E4%BD%BF%E7%94%A8
