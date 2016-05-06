@@ -35,6 +35,22 @@ hibernate是一个采用ORM（Object/Relation Mapping对象关系映射）机制
 - @Size(min=, max=)//检查该字段的size是否在min和max之间，可以是字符串、数组、集合、Map等  
 - @URL(protocol=,host,port)//检查是否是一个有效的URL，如果提供了protocol，host等，则该URL还需满足提供的条件  
 - @Valid//该注解只要用于字段为一个包含其他对象的集合或map或数组的字段，或该字段直接为一个其他对象的引用，这样在检查当前对象的同时也会检查该字段所引用的对象
-
+*注解中的message支持从配置文件中读取ValidationMessages_zh_CN.properties，配置文件中也支持表达式*
 #### 自定义约束
 http://docs.jboss.org/hibernate/validator/5.2/reference/en-US/html/ch06.html
+
+#### 手动调用validator
+```java
+ValidatorFactory factory = Validation.buildDefaultValidatorFactory();  
+        Validator validator = factory.getValidator();  
+  
+        Entity entity = new Entity();  
+        entity.setAge(12);  
+        entity.setName("admin");  
+        Set<ConstraintViolation<Entity>> constraintViolations = validator.validate(entity);  
+        for (ConstraintViolation<Entity> constraintViolation : constraintViolations) {  
+            System.out.println("对象属性:"+constraintViolation.getPropertyPath());  
+            System.out.println("国际化key:"+constraintViolation.getMessageTemplate());  
+            System.out.println("错误信息:"+constraintViolation.getMessage());  
+        }  
+```
