@@ -113,3 +113,7 @@ LOB 代表大对象数据，包括 BLOB 和 CLOB 两种类型，前者用于存�
 需要指出的是，有些数据库的大对象类型可以象简单类型一样访问，如 MySql 的 LONGTEXT 的操作方式和 VARCHAR 类型一样。在一般情况下， LOB 类型数据的访问方式不同于其它简单类型的数据，我们经常会以流的方式操作 LOB 类型的数据。此外，LOB 类型数据的访问不是线程安全的，需要为其单独分配相应的数据库资源，并在操作完成后释放资源。
 
 （参考：http://www.ibm.com/developerworks/cn/java/j-lo-spring-lob/）
+
+# Spring Boot
+
+https://qbgbook.gitbooks.io/spring-boot-reference-guide-zh/content/IV.%20Spring%20Boot%20features/29.1.1.%20Connecting%20to%20Redis.html
