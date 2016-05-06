@@ -29,7 +29,19 @@ public interface InvocationHandler {
   public Object invoke(Object proxy,Method method,Object[] args) throws Throwable; 
 }
 
-//Proxy类是专门完成代理的操作类，可以通过此类为一个或多个接口动态地生成实现类，此类提供了如下的操作方法
+	/**
+	 * Proxy类是专门完成代理的操作类，可以通过此类为一个或多个接口动态地生成实现类，此类提供了如下的操作方法
+	 * @param loader 类加载器
+	 * @param interfaces 得到全部的接口
+	 * @param h 得到InvocationHandler接口的子类实例
+	 * @return
+	 * @throws IllegalArgumentException
+	 */
 public static Object newProxyInstance(ClassLoader loader, Class<?>[] interfaces, InvocationHandler h) throws IllegalArgumentException
 ```
+类加载器,在Java中主要有以下3种类加载器
+- Booststrap ClassLoader：此加载器采用C++编写，一般开发中是看不到的
+- Extendsion ClassLoader：用来进行扩展类的加载，一般对应的是jre\lib\ext目录中的类
+- AppClassLoader：(默认)加载classpath指定的类，是最常使用的是一种加载器
+- 允许自定义类加载器
 ###### cglib动态代理
