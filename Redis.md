@@ -1,5 +1,7 @@
 #Redis
 
+http://redis.io/documentation
+
 常用的数据类型
 - String
 - Hash
