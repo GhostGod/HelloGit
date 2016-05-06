@@ -1,5 +1,11 @@
 #Redis
-8 种 NoSQL 数据库系统对比 http://blog.jobbole.com/1344/
+
+常用的数据类型
+- String
+- Hash
+- List
+- Set
+- Sorted set
 
 - 所用语言：C/C++
 - 特点：运行异常快
@@ -24,3 +30,12 @@
 例如：股票价格、数据分析、实时数据搜集、实时通讯。
 
 （编注3：Master-slave复制：如果同一时刻只有一台服务器处理所有的复制请求，这被称为 Master-slave复制，通常应用在需要提供高可用性的服务器集群
+
+
+# 8 种 NoSQL 数据库系统对比
+
+http://blog.jobbole.com/1344/
+
+# 其他redis介绍
+
+http://blog.sina.com.cn/s/blog_5a15b7d10101gizu.html
