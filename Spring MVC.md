@@ -8,4 +8,7 @@
 6. Interceptors ：拦截器，负责拦截我们定义的请求然后做处理工作
 
 #### Spring MVC的核心工作流程
-![](http://img.blog.csdn.net/20160214201920863)
+
+http://blog.csdn.net/daybreak1209/article/details/50663997
+
+*request请求到中央控制器——>传到映射处理器——>转发到指定controller——>获取数据和view ，组成成ModelAndView组件——>通过ViewResolver返回到特定的前台页面*
