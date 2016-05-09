@@ -40,7 +40,7 @@ public interface InvocationHandler {
 public static Object newProxyInstance(ClassLoader loader, Class<?>[] interfaces, InvocationHandler h) throws IllegalArgumentException
 ```
 ###### 类加载器,在Java中主要有以下3种类加载器允许自定义类加载器
-- 引导类加载器Booststrap ClassLoader：此加载器采用C++编写，一般开发中是看不到的
+- 引导类加载器Bootstrap ClassLoader：此加载器采用C++编写，一般开发中是看不到的
 - 扩展类加载器Extendsion ClassLoader：用来进行扩展类的加载，一般对应的是jre\lib\ext目录中的类
 - 系统类加载器AppClassLoader：(默认)加载classpath指定的类，是最常使用的是一种加载器
 
