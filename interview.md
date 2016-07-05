@@ -1,6 +1,6 @@
 #面试
 
-MySQL InnoDB存储的文件结构http://www.cnblogs.com/benshan/archive/2013/01/08/2851714.html
+MySQL InnoDB存储的文件结构http://mysql.taobao.org/monthly/2016/02/01/
 
 索引树是如何维护的？
 
