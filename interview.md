@@ -8,7 +8,7 @@ MySQL InnoDB存储的文件结构http://mysql.taobao.org/monthly/2016/02/01/
 
 Redis的并发竞争问题如何解决http://effective.blog.51cto.com/8296150/1671743 http://my.oschina.net/crazymus/blog/533371
 
-了解Redis事务的CAS操作吗
+了解Redis事务的CAS操作吗http://redisdoc.com/topic/transaction.html
 
 分析线程池的实现原理和线程的调度过程
 
