@@ -6,7 +6,9 @@ MySQL InnoDB存储的文件结构http://mysql.taobao.org/monthly/2016/02/01/
 
 数据库自增主键可能的问题
 
-Redis的并发竞争问题如何解决了解Redis事务的CAS操作吗
+Redis的并发竞争问题如何解决
+
+了解Redis事务的CAS操作吗
 
 分析线程池的实现原理和线程的调度过程
 
