@@ -40,7 +40,7 @@ JVM垃圾回收机制，何时触发MinorGC等操作http://mm.fancymore.com/read
 
 Eden和Survivor的比例分配等
 
-Synchronized和Lock的区别
+Synchronized和Lock的区别http://blog.csdn.net/natian306/article/details/18504111
 
 ## 阿里巴巴
 
