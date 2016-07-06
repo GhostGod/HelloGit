@@ -30,7 +30,7 @@ Dubbo的底层实现原理和机制http://itindex.net/detail/50672-dubbo-%E6%9C%
 
 分布式系统怎么做服务治理
 
-接口的幂等性的概念
+接口的幂等性的概念http://coolshell.cn/articles/4787.html
 
 Maven出现版本冲突如何解决
 
