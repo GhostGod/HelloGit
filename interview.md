@@ -22,7 +22,7 @@ Spring AOP与IOC的实现
 
 RMI与代理模式
 
-Dubbo的底层实现原理和机制
+Dubbo的底层实现原理和机制http://itindex.net/detail/50672-dubbo-%E6%9C%AC%E5%8E%9F
 
 描述一个服务从发布到被消费的详细过程
 
