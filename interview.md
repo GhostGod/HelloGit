@@ -32,9 +32,9 @@ Dubbo的底层实现原理和机制http://itindex.net/detail/50672-dubbo-%E6%9C%
 
 接口的幂等性的概念http://coolshell.cn/articles/4787.html
 
-Maven出现版本冲突如何解决 查看jar包，使用排除exclusions->exclusion
+Maven出现版本冲突如何解决：查看jar包，使用排除exclusions->exclusion
 
-JVM垃圾回收机制，何时触发MinorGC等操作
+JVM垃圾回收机制，何时触发MinorGC等操作http://mm.fancymore.com/reading/GC-info.html
 
 新生代和老生代的内存回收策略
 
