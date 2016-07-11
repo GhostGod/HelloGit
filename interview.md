@@ -12,7 +12,7 @@ Redis的并发竞争问题如何解决http://effective.blog.51cto.com/8296150/16
 
 了解Redis事务的CAS操作吗http://redisdoc.com/topic/transaction.html
 
-分析线程池的实现原理和线程的调度过程
+分析线程池的实现原理和线程的调度过程http://gityuan.com/2016/01/16/thread-pool/
 
 动态代理的几种方式
 
