@@ -72,7 +72,7 @@ mapreduce过程
 
 多路归并的时间复杂度
 
-海量url去重类问题
+海量url去重类问题https://my.oschina.net/comger/blog/176532 http://kb.cnblogs.com/page/95701/
 
 Java NIO使用
 
