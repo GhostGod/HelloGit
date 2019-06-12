@@ -5,6 +5,7 @@
  XChart | java  | https://github.com/knowm/XChart/tree/master | XChart is a light weight Java library for plotting data.
  Tablesaw  | java | https://github.com/jtablesaw/tablesaw | Tablesaw is Java for data science. It includes a dataframe and a visualization library
  pyecharts | python | https://github.com/pyecharts/pyecharts | 基于echarts4.x
+ ECharts - Java类库 | java | https://github.com/abel533/ECharts | 基于echart3.x 已停止维护
  JFreeChart | java | http://www.jfree.org/jfreechart/ | 最新版本1.5.0  2017.11 效果较丑
  JCCKit | java | http://jcckit.sourceforge.net/ | JCCKit V1.1 12/18/2004.
  openchart2 |java | http://approximatrix.com/products/openchart2/ | 2009-9-1	 Version 1.4.3
