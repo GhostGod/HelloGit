@@ -4,7 +4,7 @@
  Wicked Charts | java | https://github.com/adessoAG/wicked-charts | Wicked Charts is a Java wrapper of the Chart.js and Highcharts JavaScript libraries.
  XChart | java  | https://github.com/knowm/XChart/tree/master | XChart is a light weight Java library for plotting data.
  Tablesaw  | java | https://github.com/jtablesaw/tablesaw | Tablesaw is Java for data science. It includes a dataframe and a visualization library
- pyecharts | python | https://github.com/pyecharts/pyecharts | 基于echarts4.x 可以生成图片
+ pyecharts | python | https://github.com/pyecharts/pyecharts | 基于echarts4.x 可以生成图片（依赖于html渲染情况）
  ECharts - Java类库 | java | https://github.com/abel533/ECharts | 基于echart3.x 已停止维护 可以生成html，不能生成图片
  JFreeChart | java | http://www.jfree.org/jfreechart/ | 最新版本1.5.0  2017.11 效果较丑
  JCCKit | java | http://jcckit.sourceforge.net/ | JCCKit V1.1 12/18/2004.
