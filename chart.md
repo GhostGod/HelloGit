@@ -6,7 +6,7 @@
  Tablesaw  | java | https://github.com/jtablesaw/tablesaw | Tablesaw is Java for data science. It includes a dataframe and a visualization library
  pyecharts | python | https://github.com/pyecharts/pyecharts | 基于echarts4.x 可以生成图片（依赖于html渲染情况）
  ECharts - Java类库 | java | https://github.com/abel533/ECharts | 基于echart3.x 已停止维护 可以生成html，不能生成图片
- JFreeChart | java | http://www.jfree.org/jfreechart/ | 最新版本1.5.0  2017.11 效果较丑
+ JFreeChart | java | http://www.jfree.org/jfreechart/ | 最新版本1.5.0  2017.11 绘制漂亮的图表https://my.oschina.net/abian/blog/278448
  JCCKit | java | http://jcckit.sourceforge.net/ | JCCKit V1.1 12/18/2004.
  openchart2 |java | http://approximatrix.com/products/openchart2/ | 2009-9-1	 Version 1.4.3
  jCharts | java | http://jcharts.sourceforge.net/index.html | 2013-04-15
